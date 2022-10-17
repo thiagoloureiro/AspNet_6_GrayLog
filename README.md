@@ -2,7 +2,8 @@
 
 To change configuration go to log4net.config file and change the GELFURL to your Gelf URL
 
- ```<appender name="AsyncGelfHttpAppender" type="Gelf4Net.Appender.AsyncGelfHttpAppender, Gelf4Net">
+ ```
+ <appender name="AsyncGelfHttpAppender" type="Gelf4Net.Appender.AsyncGelfHttpAppender, Gelf4Net">
         <url value="GELFURL" />
         <!-- Limit of log lines to buffer for async send. Defaults to 1000-->
         <!-- If we cannot connect to graylog and the queue reaches the buffersize it will dequeue messages from the queue-->
