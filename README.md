@@ -1,6 +1,6 @@
 # AspNet_6_GrayLog
 
-To change configuration go to log4net.config file and change the GELFURL to your Gelf URL
+To change configuration go to log4net.config file and change the *GELFURL* to your Gelf URL and *Facility* with your ApplicatioName
 
  ```
  <appender name="AsyncGelfHttpAppender" type="Gelf4Net.Appender.AsyncGelfHttpAppender, Gelf4Net">
